@@ -1,13 +1,19 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
   typescript: {
     ignoreBuildErrors: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
+  serverExternalPackages: [
+    'genkit',
+    '@genkit-ai/googleai',
+    '@genkit-ai/google-cloud',
+    'firebase',
+    'firebase-admin',
+  ],
   images: {
     remotePatterns: [
       {
@@ -27,3 +33,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
