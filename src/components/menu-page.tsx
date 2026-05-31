@@ -173,7 +173,7 @@ export function MenuPage({ menuData }: { menuData: MenuCategory[] }) {
     <div className="min-h-screen bg-background text-foreground">
       <header ref={headerRef} className="fixed top-0 left-0 right-0 z-20 bg-background shadow-md">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center justify-between gap-4 py-2 md:flex-row md:flex-wrap">
+          <div className="flex flex-col items-center justify-between gap-2 pt-2 pb-0 md:flex-row md:flex-wrap md:gap-4 md:py-2">
               <div className="flex flex-shrink-0 items-center text-center">
                   <Image src="/bg.png" alt="Bombay Darbar Logo" width={60} height={60} className="mr-4 h-16 w-16"/>
                   <div className="flex flex-col">
@@ -189,12 +189,12 @@ export function MenuPage({ menuData }: { menuData: MenuCategory[] }) {
                   <button onClick={() => setActiveView('rooms')} className={cn('toggle-option', {'active': activeView === 'rooms'})}>Rooms</button>
                 </div>
               </div>
-              <div className="relative w-full md:w-auto md:flex-grow md:max-w-sm md:ml-auto">
+              <div className="relative w-full md:w-auto md:flex-grow md:max-w-sm md:ml-auto mb-0">
                   <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                   <Input
                       type="search"
                       placeholder="Search..."
-                      className="pl-10"
+                      className="pl-10 h-9"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
                   />
