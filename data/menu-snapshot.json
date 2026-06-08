@@ -1089,8 +1089,8 @@
       },
       {
         "name": "Chicken Tandoori",
-        "description": "",
-        "price": "",
+        "description": "Half ₹220 | Full ₹340",
+        "price": "220",
         "type": "non-veg"
       },
       {

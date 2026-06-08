@@ -312,7 +312,7 @@ export const menuData: MenuCategory[] = [
       { name: 'Chicken Pahadi Tikka',   description: '', price: '200', type: 'non-veg' },
       { name: 'Chicken Tikka',          description: '', price: '220', type: 'non-veg', popular: true },
       { name: 'Chicken Tiranga Tikka',  description: '', price: '220', type: 'non-veg' },
-      { name: 'Chicken Tandoori',       description: '', price: '',    type: 'non-veg' },
+      { name: 'Chicken Tandoori',       description: 'Half ₹220 | Full ₹340', price: '220', type: 'non-veg' },
       { name: 'Tandoori Leg Pieces',    description: 'Half ₹200 (3 pcs) / Full ₹370 (5 pcs)', price: '200', type: 'non-veg' },
       { name: 'Tandoori Thighs',        description: '', price: '',    type: 'non-veg' },
     ],
