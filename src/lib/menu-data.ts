@@ -110,7 +110,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Veg Sandwich",
         "description": "",
-        "price": "70",
+        "price": "90",
         "type": "veg"
       },
       {
@@ -134,43 +134,43 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Chana Lehsun Fry",
         "description": "",
-        "price": "220",
+        "price": "120",
         "type": "veg"
       },
       {
         "name": "Oats",
         "description": "",
-        "price": "180",
+        "price": "70",
         "type": "veg"
       },
       {
         "name": "Masala Oats",
         "description": "",
-        "price": "200",
+        "price": "80",
         "type": "veg"
       },
       {
         "name": "Peanut Chat",
         "description": "",
-        "price": "280",
+        "price": "120",
         "type": "veg"
       },
       {
         "name": "Peanut Fry",
         "description": "",
-        "price": "220",
+        "price": "100",
         "type": "veg"
       },
       {
         "name": "Chicken Sandwich",
         "description": "",
-        "price": "100",
+        "price": "120",
         "type": "non-veg"
       },
       {
         "name": "Chicken Club Sandwich",
         "description": "",
-        "price": "120",
+        "price": "130",
         "type": "non-veg"
       },
       {
@@ -182,7 +182,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Chicken Cheese Grilled Sandwich",
         "description": "",
-        "price": "130",
+        "price": "150",
         "type": "non-veg"
       }
     ]
@@ -416,7 +416,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Hara Bhara Kabab - Paneer",
         "description": "",
-        "price": "260",
+        "price": "220",
         "type": "veg"
       },
       {
@@ -524,13 +524,13 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Veg Manchurian - Dry",
         "description": "",
-        "price": "140",
+        "price": "160",
         "type": "veg"
       },
       {
         "name": "Veg Manchurian - Semi Gravy",
         "description": "",
-        "price": "160",
+        "price": "180",
         "type": "veg"
       }
     ]
@@ -578,13 +578,13 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Mashroom Masala",
         "description": "",
-        "price": "230",
+        "price": "250",
         "type": "veg"
       },
       {
         "name": "Bhindi Masala",
         "description": "",
-        "price": "220",
+        "price": "270",
         "type": "veg"
       },
       {
@@ -608,13 +608,13 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Matar Mashroom",
         "description": "",
-        "price": "240",
+        "price": "280",
         "type": "veg"
       },
       {
         "name": "Veg Singapuri",
         "description": "",
-        "price": "180",
+        "price": "210",
         "type": "veg"
       },
       {
@@ -632,19 +632,19 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Shahi Kaju",
         "description": "",
-        "price": "210",
+        "price": "300",
         "type": "veg"
       },
       {
         "name": "Kaju Paneer",
         "description": "",
-        "price": "220",
+        "price": "290",
         "type": "veg"
       },
       {
         "name": "Mix Veg",
         "description": "",
-        "price": "170",
+        "price": "220",
         "type": "veg"
       },
       {
@@ -662,37 +662,37 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Sev Tamatar",
         "description": "",
-        "price": "170",
+        "price": "200",
         "type": "veg"
       },
       {
         "name": "Sev Doodh",
         "description": "",
-        "price": "280",
+        "price": "200",
         "type": "veg"
       },
       {
         "name": "Dal Fry",
         "description": "",
-        "price": "140",
+        "price": "160",
         "type": "veg"
       },
       {
         "name": "Dal Tadka",
         "description": "",
-        "price": "160",
+        "price": "170",
         "type": "veg"
       },
       {
         "name": "Dal Makhni",
         "description": "",
-        "price": "270",
+        "price": "190",
         "type": "veg"
       },
       {
         "name": "Dal Khichdi",
         "description": "",
-        "price": "140",
+        "price": "180",
         "type": "veg"
       },
       {
@@ -794,19 +794,19 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Palak Paneer",
         "description": "",
-        "price": "300",
+        "price": "260",
         "type": "veg"
       },
       {
         "name": "Matar Paneer",
         "description": "",
-        "price": "390",
+        "price": "290",
         "type": "veg"
       },
       {
         "name": "Paneer Sizzler",
         "description": "",
-        "price": "300",
+        "price": "400",
         "type": "veg"
       }
     ]
@@ -848,7 +848,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Veg Singapore Rice",
         "description": "",
-        "price": "470",
+        "price": "170",
         "type": "veg"
       },
       {
@@ -896,7 +896,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Veg Biryani",
         "description": "",
-        "price": "160",
+        "price": "180",
         "type": "veg"
       },
       {
@@ -988,6 +988,18 @@ export const menuData: MenuCategory[] = [
         "description": "",
         "price": "40",
         "type": "veg"
+      },
+      {
+        "name": "Plain Paratha",
+        "description": "",
+        "price": "25",
+        "type": "veg"
+      },
+      {
+        "name": "Lacha Paratha",
+        "description": "",
+        "price": "40",
+        "type": "veg"
       }
     ]
   },
@@ -1062,21 +1074,21 @@ export const menuData: MenuCategory[] = [
         "type": "non-veg"
       },
       {
-        "name": "Chicken Tandoori",
-        "description": "Full Rs.—",
-        "price": "",
-        "type": "non-veg"
-      },
-      {
-        "name": "Tandoori Leg Pcs",
-        "description": "Half (3 pcs) Rs.200 | Full (5 pcs) Rs.370",
-        "price": "200",
-        "type": "non-veg"
-      },
-      {
         "name": "Tandoori Thighs",
         "description": "Full Rs.—",
         "price": "",
+        "type": "non-veg"
+      },
+      {
+        "name": "Chicken Tandoori",
+        "description": "Half Rs.220 | Full Rs.340",
+        "price": "220",
+        "type": "non-veg"
+      },
+      {
+        "name": "Tandoori Leg Pieces",
+        "description": "Half Rs.200 (3 pcs) | Full Rs.370 (5 pcs)",
+        "price": "200",
         "type": "non-veg"
       }
     ]
@@ -1770,12 +1782,6 @@ export const menuData: MenuCategory[] = [
         "type": "non-veg"
       },
       {
-        "name": "Mutton Makkhan Wala",
-        "description": "Full Rs.599",
-        "price": "599",
-        "type": "non-veg"
-      },
-      {
         "name": "Mutton Paya",
         "description": "Full Rs.580",
         "price": "580",
@@ -1785,6 +1791,12 @@ export const menuData: MenuCategory[] = [
         "name": "Mutton Rogan Josh",
         "description": "Half Rs.720",
         "price": "720",
+        "type": "non-veg"
+      },
+      {
+        "name": "Mutton Makhanwala",
+        "description": "",
+        "price": "599",
         "type": "non-veg"
       }
     ]
@@ -1872,12 +1884,6 @@ export const menuData: MenuCategory[] = [
         "type": "non-veg"
       },
       {
-        "name": "Al Faham Rice",
-        "description": "Half Rs.370 | Full Rs.720",
-        "price": "370",
-        "type": "non-veg"
-      },
-      {
         "name": "Chicken Mandi",
         "description": "",
         "price": "On Order",
@@ -1893,6 +1899,12 @@ export const menuData: MenuCategory[] = [
         "name": "Mutton Matki",
         "description": "",
         "price": "On Order",
+        "type": "non-veg"
+      },
+      {
+        "name": "Al Faham Rice",
+        "description": "Half Rs.370 | Full Rs.720",
+        "price": "370",
         "type": "non-veg"
       }
     ]
