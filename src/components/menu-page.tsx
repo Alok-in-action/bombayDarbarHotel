@@ -12,6 +12,28 @@ import { Search, ChevronUp } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { RoomsPage } from './rooms-page';
 
+function renderDescription(description: string) {
+  if (!description) return null;
+
+  if (description.includes('|')) {
+    const parts = description.split('|').map(p => p.trim());
+    return (
+      <div className="flex flex-wrap gap-2 mt-2">
+        {parts.map((part, i) => (
+          <span
+            key={i}
+            className="inline-flex items-center text-xs font-semibold bg-muted border border-border text-foreground px-3 py-1 rounded-md tracking-wide"
+          >
+            {part}
+          </span>
+        ))}
+      </div>
+    );
+  }
+
+  return <CardDescription className="text-xs">{description}</CardDescription>;
+}
+
 type ViewType = 'menu' | 'rooms';
 type FilterType = 'all' | 'veg' | 'non-veg';
 
@@ -253,12 +275,14 @@ export function MenuPage({ menuData }: { menuData: MenuCategory[] }) {
                                 </CardTitle>
                                 {item.type === 'veg' ? <VegIcon /> : <NonVegIcon />}
                               </div>
-                              <p className="text-lg font-semibold menu-price whitespace-nowrap">₹{item.price}</p>
+                              {item.price && (
+                                <p className="text-lg font-semibold menu-price whitespace-nowrap">Rs. {item.price}</p>
+                              )}
                             </div>
                           </CardHeader>
                           <CardContent className="flex flex-col justify-between flex-grow pt-0">
                             <div>
-                              <CardDescription>{item.description}</CardDescription>
+                              {renderDescription(item.description)}
                             </div>
                             {item.popular && (
                                 <div className="pt-4">
