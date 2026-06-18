@@ -233,7 +233,7 @@ export function MenuPage({ menuData }: { menuData: MenuCategory[] }) {
               <a
                 key={category.id}
                 href={`#${category.id}`}
-                ref={(el) => (navItemRefs.current[category.id] = el)}
+                ref={(el) => { navItemRefs.current[category.id] = el; }}
                 onClick={(e) => handleCategoryClick(e, category.id)}
                 className={cn(
                   "whitespace-nowrap px-4 py-3 text-sm font-medium transition-colors duration-300",
@@ -259,7 +259,7 @@ export function MenuPage({ menuData }: { menuData: MenuCategory[] }) {
                   <section
                     key={category.id}
                     id={category.id}
-                    ref={(el) => (sectionRefs.current[category.id] = el)}
+                    ref={(el) => { sectionRefs.current[category.id] = el; }}
                     className="animate-fade-in-up"
                     style={{ scrollMarginTop: `${headerHeight + navHeight}px` }}
                   >
